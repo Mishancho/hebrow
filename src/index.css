@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Frank Ruhl Libre';
+    src: url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;700&display=swap');
+  }
+}
+
+.font-hebrew {
+  font-family: 'Frank Ruhl Libre', serif;
+  direction: rtl;
+}
